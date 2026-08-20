@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Birthday Surprise</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🎂 Birthday Surprise 🎂</h1>
+
+    <p>Someone has prepared a special surprise for you!</p>
+
+    <h2>Before we begin...</h2>
+
+    <label>What is your name?</label>
+
+    <br><br>
+
+    <input type="text" id="name" placeholder="Enter your name">
+
+    <br><br>
+
+    <label>When is your birthday?</label>
+
+    <br><br>
+
+    <input type="date" id="birthday">
+
+    <br><br>
+
+    <button onclick="startSurprise()">Start Surprise</button>
+
+    <div id="surprise">
+    <h2>🎉 Happy Birthday! 🎂</h2>
+    <img id="slideshow" src="images/friend1.jpg" alt="Birthday Photo" class="birthday-photo">
+    <p id="wish"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
